@@ -8,7 +8,7 @@ const SEARCH = "/search";
 // Users
 const USERS = "/users";
 const USER_DETAIL = "/:id" // --> /users/1 이런식
-const EDIT_PROFILE = "/edit-profile";
+const EDIT_PROFILE = "/edit-profile"; //router파일에서 이거 get하는걸 먼저 써줘야 edit-profile을 id라고 인식하지 않음.주의!
 const CHANGE_PASSWORD = "/change-password";
 
 // Videos
