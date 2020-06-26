@@ -13,7 +13,7 @@ const CHANGE_PASSWORD = "/change-password";
 
 // Videos
 const VIDEOS = "/videos";
-const UPLOAD = "upload";
+const UPLOAD = "/upload";
 const VIDEO_DETAIL = "/:id";
 const EDIT_VIDEO = "/:id/edit"; // --> /videos/1/edit 이런식
 const DELETE_VIDEO = "/:id/delete";
